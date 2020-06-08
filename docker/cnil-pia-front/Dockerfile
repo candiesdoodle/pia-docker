@@ -2,8 +2,8 @@ FROM nginx:1.19
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV NODEJS_VERSION 12.18
-ENV PIA_VERSION v2.3.0-beta17
-ENV BRANCH community-7-angular-9
+ENV PIA_VERSION v2.4.0-beta01
+ENV BRANCH pia-2.4-6-angular-9
 ENV SUDO_FORCE_REMOVE yes
 
 RUN apt-get update \
